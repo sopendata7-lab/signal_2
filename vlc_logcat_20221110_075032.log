@@ -1,0 +1,528 @@
+____________________________
+Useful info
+____________________________
+App version: 3040400 / 3.4.4
+Changed settings:
+	* video_action_switch -> 2
+	* audio_task_removed -> true
+	* enable_play_on_headset_insertion -> true
+	* aout -> 1
+	* casting_passthrough -> true
+	* casting_quality -> 1
+
+____________________________
+--------- beginning of system
+11-10 07:38:12.975 E/ActivityThread(30356): Failed to find provider info for android.media.tv
+--------- beginning of main
+11-10 07:39:43.549 I/chatty  (30356): uid=1010545(org.videolan.vlc) main expire 1 line
+11-10 07:39:43.550 I/chatty  (30356): uid=1010545(org.videolan.vlc) main expire 49 lines
+11-10 07:39:43.568 I/chatty  (30356): uid=1010545(org.videolan.vlc) main expire 1 line
+11-10 07:39:43.573 I/chatty  (30356): uid=1010545(org.videolan.vlc) main expire 18 lines
+11-10 07:39:43.610 I/chatty  (30356): uid=1010545(org.videolan.vlc) main expire 9 lines
+11-10 07:39:43.649 I/chatty  (30356): uid=1010545(org.videolan.vlc) FinalizerDaemon expire 28 lines
+11-10 07:39:44.755 I/chatty  (30356): uid=1010545(org.videolan.vlc) main expire 1 line
+11-10 07:39:44.755 I/chatty  (30356): uid=1010545(org.videolan.vlc) main expire 40 lines
+11-10 07:39:44.779 I/chatty  (30356): uid=1010545(org.videolan.vlc) main expire 1 line
+11-10 07:39:44.780 D/VLC     (30356): [b400007c777532a0/1546] libvlc demux meta: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/reader/filename.lua
+11-10 07:39:44.781 D/VLC     (30356): [b400007c777532a0/1546] libvlc demux meta: Trying Lua scripts in /data/app/~~MjARcWDegVQUhHnGC57jkg==/org.videolan.vlc-29_pfCULKErpiz1ReJ4wYg==/lib/arm64/vlc/lua/meta/reader
+11-10 07:39:44.781 D/VLC     (30356): [b400007c777532a0/1546] libvlc demux meta: Trying Lua scripts in /system/usr/share/lua/meta/reader
+11-10 07:39:44.781 D/VLC     (30356): [b400007c777532a0/1546] libvlc demux meta: no meta reader modules matched
+11-10 07:39:44.781 D/VLC     (30356): [b400007cf770b620/1546] libvlc input: `file:///storage/emulated/10/Android/media' successfully opened
+11-10 07:39:44.783 D/VLC     (30356): [b400007cf770b620/1546] libvlc input: EOF reached
+11-10 07:39:44.783 D/VLC     (30356): [b400007c877ec760/1546] libvlc demux: removing module "directory"
+11-10 07:39:44.783 D/VLC     (30356): [b400007c977417a0/1546] libvlc stream: removing module "record"
+11-10 07:39:44.783 D/VLC     (30356): [b400007c97740b60/1546] libvlc stream: removing module "filesystem"
+11-10 07:39:44.784 D/VLC     (30356): [b400007c67750800/1549] libvlc meta fetcher: looking for meta fetcher module matching "any": 1 candidates
+11-10 07:39:44.784 D/VLC     (30356): [b400007c67750800/1549] libvlc meta fetcher: Trying Lua scripts in /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/fetcher
+11-10 07:39:44.784 D/VLC     (30356): [b400007c67750800/1549] libvlc meta fetcher: Trying Lua scripts in /data/app/~~MjARcWDegVQUhHnGC57jkg==/org.videolan.vlc-29_pfCULKErpiz1ReJ4wYg==/lib/arm64/vlc/lua/meta/fetcher
+11-10 07:39:44.784 D/VLC     (30356): [b400007c67750800/1549] libvlc meta fetcher: Trying Lua scripts in /system/usr/share/lua/meta/fetcher
+11-10 07:39:44.784 D/VLC     (30356): [b400007c67750800/1549] libvlc meta fetcher: no meta fetcher modules matched
+11-10 07:39:44.784 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: looking for art finder module matching "any": 2 candidates
+11-10 07:39:44.790 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:44.790 V/AutofillManager(30356): notifyValueChanged(1073741855): ignoring on state UNKNOWN
+11-10 07:39:44.795 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: Trying Lua scripts in /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art
+11-10 07:39:44.795 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/00_musicbrainz.lua
+11-10 07:39:44.796 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/00_musicbrainz.lua
+11-10 07:39:44.796 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/01_googleimage.lua
+11-10 07:39:44.796 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/01_googleimage.lua
+11-10 07:39:44.796 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/02_frenchtv.lua
+11-10 07:39:44.796 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/02_frenchtv.lua
+11-10 07:39:44.796 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/03_lastfm.lua
+11-10 07:39:44.796 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/03_lastfm.lua
+11-10 07:39:44.796 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: Trying Lua scripts in /data/app/~~MjARcWDegVQUhHnGC57jkg==/org.videolan.vlc-29_pfCULKErpiz1ReJ4wYg==/lib/arm64/vlc/lua/meta/art
+11-10 07:39:44.796 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: Trying Lua scripts in /system/usr/share/lua/meta/art
+11-10 07:39:44.796 D/VLC     (30356): [b400007c67750800/1549] libvlc art finder: no art finder modules matched
+11-10 07:39:44.804 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:44.804 V/AutofillManager(30356): notifyValueChanged(1073741856): ignoring on state UNKNOWN
+11-10 07:39:44.807 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:44.807 V/AutofillManager(30356): notifyValueChanged(1073741857): ignoring on state UNKNOWN
+11-10 07:39:46.925 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:39:47.061 W/DividerItem(30356): @android:attr/listDivider was not set in the theme used for this DividerItemDecoration. Please set that attribute all call setDrawable()
+11-10 07:39:47.061 D/VLC     (30356): [b400007cf7715720/1552] libvlc input: Creating an input for preparsing 'com.facebook.orca'
+11-10 07:39:47.062 D/VLC     (30356): [b400007cf7715720/1553] libvlc input: using timeshift granularity of 50 MiB
+11-10 07:39:47.062 D/VLC     (30356): [b400007cf7715720/1553] libvlc input: using default timeshift path
+11-10 07:39:47.062 D/VLC     (30356): [b400007cf7715720/1553] libvlc input: `file:///storage/emulated/10/Android/media/com.facebook.orca' gives access `file' demux `any' path `/storage/emulated/10/Android/media/com.facebook.orca'
+11-10 07:39:47.062 D/VLC     (30356): [b400007c87733020/1553] libvlc demux: looking for access_demux module matching "file": 7 candidates
+11-10 07:39:47.078 W/VlcObject(30356): type=1400 audit(0.0:24238): avc: denied { read } for name="/" dev="dm-6" ino=2 scontext=u:r:untrusted_app:s0:c33,c258,c522,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=0
+11-10 07:39:47.083 E/VLC     (30356): [b400007c87733020/1553] libvlc demux: Couldn't find device name.
+11-10 07:39:47.086 E/VLC     (30356): [b400007c87733020/1553] libvlc demux: DVDOpenFilePath:findDVDFile /VIDEO_TS/VIDEO_TS.IFO failed
+11-10 07:39:47.087 W/VLC     (30356): [b400007c87733020/1553] libvlc demux: Can't open file VIDEO_TS.IFO.
+11-10 07:39:47.087 E/VLC     (30356): [b400007c87733020/1553] libvlc demux: vm: vm: failed to read VIDEO_TS.IFO
+11-10 07:39:47.087 W/VLC     (30356): [b400007c87733020/1553] libvlc demux: cannot open DVD (/storage/emulated/10/Android/media/com.facebook.orca)
+11-10 07:39:47.087 D/VLC     (30356): [b400007c87733020/1553] libvlc demux: no access_demux modules matched
+11-10 07:39:47.087 D/VLC     (30356): [b400007c9774ac60/1553] libvlc stream: creating access: file:///storage/emulated/10/Android/media/com.facebook.orca
+11-10 07:39:47.087 D/VLC     (30356): [b400007c9774ac60/1553] libvlc stream:  (path: /storage/emulated/10/Android/media/com.facebook.orca)
+11-10 07:39:47.087 D/VLC     (30356): [b400007c9774ac60/1553] libvlc stream: looking for access module matching "file": 25 candidates
+11-10 07:39:47.088 D/VLC     (30356): [b400007c9774ac60/1553] libvlc stream: using access module "filesystem"
+11-10 07:39:47.088 D/VLC     (30356): [b400007c977526e0/1553] libvlc stream: looking for stream_filter module matching "any": 26 candidates
+11-10 07:39:47.088 D/VLC     (30356): [b400007c977526e0/1553] libvlc stream: no stream_filter modules matched
+11-10 07:39:47.088 D/VLC     (30356): [b400007c87733020/1553] libvlc stream_directory: looking for stream_directory module matching "any": 1 candidates
+11-10 07:39:47.088 D/VLC     (30356): [b400007c87733020/1553] libvlc stream_directory: no stream_directory modules matched
+11-10 07:39:47.088 D/VLC     (30356): [b400007c77744780/1553] libvlc input source: attachment of directory-extractor failed for file:///storage/emulated/10/Android/media/com.facebook.orca
+11-10 07:39:47.088 D/VLC     (30356): [b400007c977526e0/1553] libvlc stream: looking for stream_filter module matching "record": 26 candidates
+11-10 07:39:47.088 D/VLC     (30356): [b400007c977526e0/1553] libvlc stream: using stream_filter module "record"
+11-10 07:39:47.088 D/VLC     (30356): [b400007c87733020/1553] libvlc demux: looking for demux module matching "any": 49 candidates
+11-10 07:39:47.088 D/VLC     (30356): [b400007c87733020/1553] libvlc demux: cannot peek
+11-10 07:39:47.088 I/chatty  (30356): uid=1010545(org.videolan.vlc) main identical 20 lines
+11-10 07:39:47.090 I/chatty  (30356): uid=1010545(org.videolan.vlc) main expire 1 line
+11-10 07:39:47.091 I/chatty  (30356): uid=1010545(org.videolan.vlc) main expire 6 lines
+11-10 07:39:47.092 I/chatty  (30356): uid=1010545(org.videolan.vlc) main expire 11 lines
+11-10 07:39:47.103 D/VLC     (30356): [b400007c677503a0/1557] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/02_frenchtv.lua
+11-10 07:39:47.103 D/VLC     (30356): [b400007c677503a0/1557] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/02_frenchtv.lua
+11-10 07:39:47.103 D/VLC     (30356): [b400007c677503a0/1557] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/03_lastfm.lua
+11-10 07:39:47.103 D/VLC     (30356): [b400007c677503a0/1557] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/03_lastfm.lua
+11-10 07:39:47.103 D/VLC     (30356): [b400007c677503a0/1557] libvlc art finder: Trying Lua scripts in /data/app/~~MjARcWDegVQUhHnGC57jkg==/org.videolan.vlc-29_pfCULKErpiz1ReJ4wYg==/lib/arm64/vlc/lua/meta/art
+11-10 07:39:47.103 D/VLC     (30356): [b400007c677503a0/1557] libvlc art finder: Trying Lua scripts in /system/usr/share/lua/meta/art
+11-10 07:39:47.103 D/VLC     (30356): [b400007c677503a0/1557] libvlc art finder: no art finder modules matched
+11-10 07:39:48.263 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:39:48.607 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:39:48.720 W/DividerItem(30356): @android:attr/listDivider was not set in the theme used for this DividerItemDecoration. Please set that attribute all call setDrawable()
+11-10 07:39:48.736 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:48.736 V/AutofillManager(30356): notifyValueChanged(1073741858): ignoring on state UNKNOWN
+11-10 07:39:48.739 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:48.739 V/AutofillManager(30356): notifyValueChanged(1073741859): ignoring on state UNKNOWN
+11-10 07:39:48.741 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:48.741 V/AutofillManager(30356): notifyValueChanged(1073741860): ignoring on state UNKNOWN
+11-10 07:39:49.555 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:39:49.689 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:49.689 V/AutofillManager(30356): notifyValueChanged(1073741861): ignoring on state UNKNOWN
+11-10 07:39:50.481 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:39:50.601 W/VlcObject(30356): type=1400 audit(0.0:24239): avc: denied { read } for name="/" dev="dm-6" ino=2 scontext=u:r:untrusted_app:s0:c33,c258,c522,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=0
+11-10 07:39:50.601 D/VLC     (30356): [b400007cf7722060/1561] libvlc input: Creating an input for preparsing '10'
+11-10 07:39:50.602 D/VLC     (30356): [b400007cf7722060/1562] libvlc input: using timeshift granularity of 50 MiB
+11-10 07:39:50.602 D/VLC     (30356): [b400007cf7722060/1562] libvlc input: using default timeshift path
+11-10 07:39:50.602 D/VLC     (30356): [b400007cf7722060/1562] libvlc input: `file:///storage/emulated/10' gives access `file' demux `any' path `/storage/emulated/10'
+11-10 07:39:50.602 D/VLC     (30356): [b400007c8774a200/1562] libvlc demux: looking for access_demux module matching "file": 7 candidates
+11-10 07:39:50.602 W/DividerItem(30356): @android:attr/listDivider was not set in the theme used for this DividerItemDecoration. Please set that attribute all call setDrawable()
+11-10 07:39:50.604 E/VLC     (30356): [b400007c8774a200/1562] libvlc demux: Couldn't find device name.
+11-10 07:39:50.607 E/VLC     (30356): [b400007c8774a200/1562] libvlc demux: DVDOpenFilePath:findDVDFile /VIDEO_TS/VIDEO_TS.IFO failed
+11-10 07:39:50.607 W/VLC     (30356): [b400007c8774a200/1562] libvlc demux: Can't open file VIDEO_TS.IFO.
+11-10 07:39:50.607 E/VLC     (30356): [b400007c8774a200/1562] libvlc demux: vm: vm: failed to read VIDEO_TS.IFO
+11-10 07:39:50.607 W/VLC     (30356): [b400007c8774a200/1562] libvlc demux: cannot open DVD (/storage/emulated/10)
+11-10 07:39:50.607 D/VLC     (30356): [b400007c8774a200/1562] libvlc demux: no access_demux modules matched
+11-10 07:39:50.607 D/VLC     (30356): [b400007c9773ace0/1562] libvlc stream: creating access: file:///storage/emulated/10
+11-10 07:39:50.607 D/VLC     (30356): [b400007c9773ace0/1562] libvlc stream:  (path: /storage/emulated/10)
+11-10 07:39:50.607 D/VLC     (30356): [b400007c9773ace0/1562] libvlc stream: looking for access module matching "file": 25 candidates
+11-10 07:39:50.608 D/VLC     (30356): [b400007c9773ace0/1562] libvlc stream: using access module "filesystem"
+11-10 07:39:50.608 D/VLC     (30356): [b400007c9774ba60/1562] libvlc stream: looking for stream_filter module matching "any": 26 candidates
+11-10 07:39:50.608 D/VLC     (30356): [b400007c9774ba60/1562] libvlc stream: no stream_filter modules matched
+11-10 07:39:50.608 D/VLC     (30356): [b400007c8774a200/1562] libvlc stream_directory: looking for stream_directory module matching "any": 1 candidates
+11-10 07:39:50.608 D/VLC     (30356): [b400007c8774a200/1562] libvlc stream_directory: no stream_directory modules matched
+11-10 07:39:50.608 D/VLC     (30356): [b400007c7771c1c0/1562] libvlc input source: attachment of directory-extractor failed for file:///storage/emulated/10
+11-10 07:39:50.608 D/VLC     (30356): [b400007c9774ba60/1562] libvlc stream: looking for stream_filter module matching "record": 26 candidates
+11-10 07:39:50.608 D/VLC     (30356): [b400007c9774ba60/1562] libvlc stream: using stream_filter module "record"
+11-10 07:39:50.608 D/VLC     (30356): [b400007c8774a200/1562] libvlc demux: looking for demux module matching "any": 49 candidates
+11-10 07:39:50.608 D/VLC     (30356): [b400007c8774a200/1562] libvlc demux: cannot peek
+11-10 07:39:50.608 I/chatty  (30356): uid=1010545(org.videolan.vlc) main identical 3 lines
+11-10 07:39:50.608 D/VLC     (30356): [b400007c8774a200/1562] libvlc demux: cannot peek
+11-10 07:39:50.608 D/VLC     (30356): [b400007c8774a200/1562] libvlc demux: MOD validation failed (ext=)
+11-10 07:39:50.608 D/VLC     (30356): [b400007c8774a200/1562] libvlc demux: using demux module "directory"
+11-10 07:39:50.608 D/VLC     (30356): [b400007c77750360/1562] libvlc demux meta: looking for meta reader module matching "any": 2 candidates
+11-10 07:39:50.608 D/VLC     (30356): [b400007c977c3f60/1562] libvlc stream: creating access: file:///storage/emulated/10
+11-10 07:39:50.608 D/VLC     (30356): [b400007c977c3f60/1562] libvlc stream:  (path: /storage/emulated/10)
+11-10 07:39:50.608 D/VLC     (30356): [b400007c977c3f60/1562] libvlc stream: looking for access module matching "file": 25 candidates
+11-10 07:39:50.609 D/VLC     (30356): [b400007c977c3f60/1562] libvlc stream: using access module "filesystem"
+11-10 07:39:50.609 D/VLC     (30356): [b400007c9774e2a0/1562] libvlc stream: looking for stream_filter module matching "prefetch,cache": 26 candidates
+11-10 07:39:50.609 D/VLC     (30356): [b400007c9774e2a0/1562] libvlc stream: using 16777216 bytes buffer, 16777216 bytes read
+11-10 07:39:50.609 D/VLC     (30356): [b400007c9774e2a0/1562] libvlc stream: using stream_filter module "prefetch"
+11-10 07:39:50.609 D/VLC     (30356): [b400007c9774e2a0/1563] libvlc stream: end of stream
+11-10 07:39:50.609 D/VLC     (30356): [b400007c9774e2a0/1562] libvlc stream: removing module "prefetch"
+11-10 07:39:50.609 D/VLC     (30356): [b400007c977c3f60/1562] libvlc stream: removing module "filesystem"
+11-10 07:39:50.609 D/VLC     (30356): [b400007c77750360/1562] libvlc demux meta: Trying Lua scripts in /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/reader
+11-10 07:39:50.610 D/VLC     (30356): [b400007c77750360/1562] libvlc demux meta: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/reader/filename.lua
+11-10 07:39:50.610 D/VLC     (30356): [b400007c77750360/1562] libvlc demux meta: Trying Lua scripts in /data/app/~~MjARcWDegVQUhHnGC57jkg==/org.videolan.vlc-29_pfCULKErpiz1ReJ4wYg==/lib/arm64/vlc/lua/meta/reader
+11-10 07:39:50.610 D/VLC     (30356): [b400007c77750360/1562] libvlc demux meta: Trying Lua scripts in /system/usr/share/lua/meta/reader
+11-10 07:39:50.610 D/VLC     (30356): [b400007c77750360/1562] libvlc demux meta: no meta reader modules matched
+11-10 07:39:50.610 D/VLC     (30356): [b400007cf7722060/1562] libvlc input: `file:///storage/emulated/10' successfully opened
+11-10 07:39:50.613 D/VLC     (30356): [b400007cf7722060/1562] libvlc input: EOF reached
+11-10 07:39:50.613 D/VLC     (30356): [b400007c8774a200/1562] libvlc demux: removing module "directory"
+11-10 07:39:50.613 D/VLC     (30356): [b400007c9774ba60/1562] libvlc stream: removing module "record"
+11-10 07:39:50.613 D/VLC     (30356): [b400007c9773ace0/1562] libvlc stream: removing module "filesystem"
+11-10 07:39:50.614 D/VLC     (30356): [b400007c67777b60/1566] libvlc meta fetcher: looking for meta fetcher module matching "any": 1 candidates
+11-10 07:39:50.614 D/VLC     (30356): [b400007c67777b60/1566] libvlc meta fetcher: Trying Lua scripts in /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/fetcher
+11-10 07:39:50.614 D/VLC     (30356): [b400007c67777b60/1566] libvlc meta fetcher: Trying Lua scripts in /data/app/~~MjARcWDegVQUhHnGC57jkg==/org.videolan.vlc-29_pfCULKErpiz1ReJ4wYg==/lib/arm64/vlc/lua/meta/fetcher
+11-10 07:39:50.614 D/VLC     (30356): [b400007c67777b60/1566] libvlc meta fetcher: Trying Lua scripts in /system/usr/share/lua/meta/fetcher
+11-10 07:39:50.614 D/VLC     (30356): [b400007c67777b60/1566] libvlc meta fetcher: no meta fetcher modules matched
+11-10 07:39:50.614 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: looking for art finder module matching "any": 2 candidates
+11-10 07:39:50.619 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: Trying Lua scripts in /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art
+11-10 07:39:50.619 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/00_musicbrainz.lua
+11-10 07:39:50.619 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/00_musicbrainz.lua
+11-10 07:39:50.619 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/01_googleimage.lua
+11-10 07:39:50.619 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/01_googleimage.lua
+11-10 07:39:50.620 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/02_frenchtv.lua
+11-10 07:39:50.620 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/02_frenchtv.lua
+11-10 07:39:50.620 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/03_lastfm.lua
+11-10 07:39:50.620 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/03_lastfm.lua
+11-10 07:39:50.620 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: Trying Lua scripts in /data/app/~~MjARcWDegVQUhHnGC57jkg==/org.videolan.vlc-29_pfCULKErpiz1ReJ4wYg==/lib/arm64/vlc/lua/meta/art
+11-10 07:39:50.620 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: Trying Lua scripts in /system/usr/share/lua/meta/art
+11-10 07:39:50.620 D/VLC     (30356): [b400007c67777b60/1566] libvlc art finder: no art finder modules matched
+11-10 07:39:50.633 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:50.633 V/AutofillManager(30356): notifyValueChanged(1073741862): ignoring on state UNKNOWN
+11-10 07:39:50.648 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:50.648 V/AutofillManager(30356): notifyValueChanged(1073741863): ignoring on state UNKNOWN
+11-10 07:39:50.652 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:50.652 V/AutofillManager(30356): notifyValueChanged(1073741864): ignoring on state UNKNOWN
+11-10 07:39:50.655 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:50.655 V/AutofillManager(30356): notifyValueChanged(1073741865): ignoring on state UNKNOWN
+11-10 07:39:50.658 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:50.658 V/AutofillManager(30356): notifyValueChanged(1073741866): ignoring on state UNKNOWN
+11-10 07:39:51.566 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:39:51.685 W/VlcObject(30356): type=1400 audit(0.0:24240): avc: denied { read } for name="/" dev="dm-6" ino=2 scontext=u:r:untrusted_app:s0:c33,c258,c522,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=0
+11-10 07:39:51.686 D/VLC     (30356): [b400007cf770b620/1569] libvlc input: Creating an input for preparsing 'Alarms'
+11-10 07:39:51.687 D/VLC     (30356): [b400007cf770b620/156a] libvlc input: using timeshift granularity of 50 MiB
+11-10 07:39:51.687 D/VLC     (30356): [b400007cf770b620/156a] libvlc input: using default timeshift path
+11-10 07:39:51.687 D/VLC     (30356): [b400007cf770b620/156a] libvlc input: `file:///storage/emulated/10/Alarms' gives access `file' demux `any' path `/storage/emulated/10/Alarms'
+11-10 07:39:51.687 D/VLC     (30356): [b400007c8777b8a0/156a] libvlc demux: looking for access_demux module matching "file": 7 candidates
+11-10 07:39:51.687 W/DividerItem(30356): @android:attr/listDivider was not set in the theme used for this DividerItemDecoration. Please set that attribute all call setDrawable()
+11-10 07:39:51.689 E/VLC     (30356): [b400007c8777b8a0/156a] libvlc demux: Couldn't find device name.
+11-10 07:39:51.691 E/VLC     (30356): [b400007c8777b8a0/156a] libvlc demux: DVDOpenFilePath:findDVDFile /VIDEO_TS/VIDEO_TS.IFO failed
+11-10 07:39:51.691 W/VLC     (30356): [b400007c8777b8a0/156a] libvlc demux: Can't open file VIDEO_TS.IFO.
+11-10 07:39:51.691 E/VLC     (30356): [b400007c8777b8a0/156a] libvlc demux: vm: vm: failed to read VIDEO_TS.IFO
+11-10 07:39:51.691 W/VLC     (30356): [b400007c8777b8a0/156a] libvlc demux: cannot open DVD (/storage/emulated/10/Alarms)
+11-10 07:39:51.691 D/VLC     (30356): [b400007c8777b8a0/156a] libvlc demux: no access_demux modules matched
+11-10 07:39:51.691 D/VLC     (30356): [b400007c97775a60/156a] libvlc stream: creating access: file:///storage/emulated/10/Alarms
+11-10 07:39:51.691 D/VLC     (30356): [b400007c97775a60/156a] libvlc stream:  (path: /storage/emulated/10/Alarms)
+11-10 07:39:51.691 D/VLC     (30356): [b400007c97775a60/156a] libvlc stream: looking for access module matching "file": 25 candidates
+11-10 07:39:51.692 D/VLC     (30356): [b400007c97775a60/156a] libvlc stream: using access module "filesystem"
+11-10 07:39:51.692 D/VLC     (30356): [b400007c97773920/156a] libvlc stream: looking for stream_filter module matching "any": 26 candidates
+11-10 07:39:51.692 D/VLC     (30356): [b400007c97773920/156a] libvlc stream: no stream_filter modules matched
+11-10 07:39:51.692 D/VLC     (30356): [b400007c87783b40/156a] libvlc stream_directory: looking for stream_directory module matching "any": 1 candidates
+11-10 07:39:51.692 D/VLC     (30356): [b400007c87783b40/156a] libvlc stream_directory: no stream_directory modules matched
+11-10 07:39:51.692 D/VLC     (30356): [b400007c77765a80/156a] libvlc input source: attachment of directory-extractor failed for file:///storage/emulated/10/Alarms
+11-10 07:39:51.692 D/VLC     (30356): [b400007c97773920/156a] libvlc stream: looking for stream_filter module matching "record": 26 candidates
+11-10 07:39:51.692 D/VLC     (30356): [b400007c97773920/156a] libvlc stream: using stream_filter module "record"
+11-10 07:39:51.692 D/VLC     (30356): [b400007c87783b40/156a] libvlc demux: looking for demux module matching "any": 49 candidates
+11-10 07:39:51.692 D/VLC     (30356): [b400007c87783b40/156a] libvlc demux: cannot peek
+11-10 07:39:51.692 I/chatty  (30356): uid=1010545(org.videolan.vlc) main identical 3 lines
+11-10 07:39:51.692 D/VLC     (30356): [b400007c87783b40/156a] libvlc demux: cannot peek
+11-10 07:39:51.692 D/VLC     (30356): [b400007c87783b40/156a] libvlc demux: MOD validation failed (ext=)
+11-10 07:39:51.692 D/VLC     (30356): [b400007c87783b40/156a] libvlc demux: using demux module "directory"
+11-10 07:39:51.692 D/VLC     (30356): [b400007c77766b60/156a] libvlc demux meta: looking for meta reader module matching "any": 2 candidates
+11-10 07:39:51.692 D/VLC     (30356): [b400007c9777aae0/156a] libvlc stream: creating access: file:///storage/emulated/10/Alarms
+11-10 07:39:51.692 D/VLC     (30356): [b400007c9777aae0/156a] libvlc stream:  (path: /storage/emulated/10/Alarms)
+11-10 07:39:51.692 D/VLC     (30356): [b400007c9777aae0/156a] libvlc stream: looking for access module matching "file": 25 candidates
+11-10 07:39:51.693 D/VLC     (30356): [b400007c9777aae0/156a] libvlc stream: using access module "filesystem"
+11-10 07:39:51.693 D/VLC     (30356): [b400007c97774e20/156a] libvlc stream: looking for stream_filter module matching "prefetch,cache": 26 candidates
+11-10 07:39:51.693 D/VLC     (30356): [b400007c97774e20/156a] libvlc stream: using 16777216 bytes buffer, 16777216 bytes read
+11-10 07:39:51.693 D/VLC     (30356): [b400007c97774e20/156a] libvlc stream: using stream_filter module "prefetch"
+11-10 07:39:51.693 D/VLC     (30356): [b400007c97774e20/156b] libvlc stream: end of stream
+11-10 07:39:51.693 D/VLC     (30356): [b400007c97774e20/156a] libvlc stream: removing module "prefetch"
+11-10 07:39:51.693 D/VLC     (30356): [b400007c9777aae0/156a] libvlc stream: removing module "filesystem"
+11-10 07:39:51.694 D/VLC     (30356): [b400007c77766b60/156a] libvlc demux meta: Trying Lua scripts in /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/reader
+11-10 07:39:51.694 D/VLC     (30356): [b400007c77766b60/156a] libvlc demux meta: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/reader/filename.lua
+11-10 07:39:51.694 D/VLC     (30356): [b400007c77766b60/156a] libvlc demux meta: Trying Lua scripts in /data/app/~~MjARcWDegVQUhHnGC57jkg==/org.videolan.vlc-29_pfCULKErpiz1ReJ4wYg==/lib/arm64/vlc/lua/meta/reader
+11-10 07:39:51.694 D/VLC     (30356): [b400007c77766b60/156a] libvlc demux meta: Trying Lua scripts in /system/usr/share/lua/meta/reader
+11-10 07:39:51.694 D/VLC     (30356): [b400007c77766b60/156a] libvlc demux meta: no meta reader modules matched
+11-10 07:39:51.694 D/VLC     (30356): [b400007cf770b620/156a] libvlc input: `file:///storage/emulated/10/Alarms' successfully opened
+11-10 07:39:51.695 D/VLC     (30356): [b400007cf770b620/156a] libvlc input: EOF reached
+11-10 07:39:51.695 D/VLC     (30356): [b400007c87783b40/156a] libvlc demux: removing module "directory"
+11-10 07:39:51.695 D/VLC     (30356): [b400007c97773920/156a] libvlc stream: removing module "record"
+11-10 07:39:51.695 D/VLC     (30356): [b400007c97775a60/156a] libvlc stream: removing module "filesystem"
+11-10 07:39:51.695 D/VLC     (30356): [b400007c6771db20/156d] libvlc meta fetcher: looking for meta fetcher module matching "any": 1 candidates
+11-10 07:39:51.695 D/VLC     (30356): [b400007c6771db20/156d] libvlc meta fetcher: Trying Lua scripts in /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/fetcher
+11-10 07:39:51.695 D/VLC     (30356): [b400007c6771db20/156d] libvlc meta fetcher: Trying Lua scripts in /data/app/~~MjARcWDegVQUhHnGC57jkg==/org.videolan.vlc-29_pfCULKErpiz1ReJ4wYg==/lib/arm64/vlc/lua/meta/fetcher
+11-10 07:39:51.695 D/VLC     (30356): [b400007c6771db20/156d] libvlc meta fetcher: Trying Lua scripts in /system/usr/share/lua/meta/fetcher
+11-10 07:39:51.695 D/VLC     (30356): [b400007c6771db20/156d] libvlc meta fetcher: no meta fetcher modules matched
+11-10 07:39:51.695 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: looking for art finder module matching "any": 2 candidates
+11-10 07:39:51.698 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: Trying Lua scripts in /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art
+11-10 07:39:51.698 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/00_musicbrainz.lua
+11-10 07:39:51.698 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/00_musicbrainz.lua
+11-10 07:39:51.699 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/01_googleimage.lua
+11-10 07:39:51.699 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/01_googleimage.lua
+11-10 07:39:51.699 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/02_frenchtv.lua
+11-10 07:39:51.699 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/02_frenchtv.lua
+11-10 07:39:51.699 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: Trying Lua playlist script /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/03_lastfm.lua
+11-10 07:39:51.699 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: skipping script (unmatched scope) /data/user/10/org.videolan.vlc/app_vlc/.share/lua/meta/art/03_lastfm.lua
+11-10 07:39:51.699 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: Trying Lua scripts in /data/app/~~MjARcWDegVQUhHnGC57jkg==/org.videolan.vlc-29_pfCULKErpiz1ReJ4wYg==/lib/arm64/vlc/lua/meta/art
+11-10 07:39:51.699 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: Trying Lua scripts in /system/usr/share/lua/meta/art
+11-10 07:39:51.699 D/VLC     (30356): [b400007c6771db20/156d] libvlc art finder: no art finder modules matched
+11-10 07:39:52.410 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:39:52.569 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:39:52.569 V/AutofillManager(30356): notifyValueChanged(1073741867): ignoring on state UNKNOWN
+11-10 07:39:53.447 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:39:53.995 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:39:54.182 D/OpenGLRenderer(30356): endAllActiveAnimators on 0xb400007cc78b9a60 (RippleDrawable) with handle 0xb400007be77c5c20
+11-10 07:40:00.075 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:03.137 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:03.308 D/OpenGLRenderer(30356): endAllActiveAnimators on 0xb400007cc7821180 (AlertController$RecycleListView) with handle 0xb400007be77c5920
+11-10 07:40:03.318 W/InputEventReceiver(30356): Attempted to finish an input event but the input event receiver has already been disposed.
+11-10 07:40:03.324 D/VLC     (30356): [b400007c8779ae80/61004d0064006f] libvlc libvlc: VLC media player - 3.0.16 Vetinari
+11-10 07:40:03.324 D/VLC     (30356): [b400007c8779ae80/0] libvlc libvlc: Copyright © 1996-2021 the VideoLAN team
+11-10 07:40:03.324 D/VLC     (30356): [b400007c8779ae80/3f3e66663f313000] libvlc libvlc: revision 3.0.16-185-gb0b65fc840
+11-10 07:40:03.324 D/VLC     (30356): [b400007c8779ae80/3f7500003f6f3400] libvlc libvlc: configured with ../configure  '--host=aarch64-linux-android' '--build=x86_64-unknown-linux' '--with-contrib=/builds/videolan/vlc-android/vlc/contrib/aarch64-linux-android' '--prefix=/builds/videolan/vlc-android/vlc/build-android-aarch64-linux-android/install/' '--with-pic' '--disable-nls' '--enable-live555' '--enable-realrtsp' '--enable-avformat' '--enable-swscale' '--enable-avcodec' '--enable-opus' '--enable-opensles' '--enable-matroska' '--enable-taglib' '--enable-dvbpsi' '--disable-vlc' '--disable-shared' '--disable-update-check' '--disable-vlm' '--disable-dbus' '--enable-lua' '--disable-vcd' '--disable-v4l2' '--enable-dvdread' '--enable-dvdnav' '--enable-bluray' '--disable-linsys' '--disable-decklink' '--disable-libva' '--disable-dv1394' '--enable-mod' '--disable-sid' '--disable-gme' '--disable-tremor' '--disable-mad' '--enable-mpg123' '--disable-dca' '--disable-sdl-image' '--enable-zvbi' '--disable-fluidsynth' '--enable-fluidlite' '--disable-jack' '--di
+11-10 07:40:03.324 D/VLC     (30356): [b400007c8779ae80/b400007c37728330] libvlc libvlc: plug-ins loaded: 367 modules
+11-10 07:40:03.324 D/VLC     (30356): [b400007c77766380/5452485f4c534433] libvlc logger: looking for logger module matching "any": 4 candidates
+11-10 07:40:03.324 D/VLC     (30356): [b400007c77766380/3f7500003f6f3400] libvlc logger: using logger module "android_logger"
+11-10 07:40:03.324 D/VLC     (30356): [b400007c8779ae80/7694] libvlc libvlc: translation test: code is "C"
+11-10 07:40:03.324 D/VLC     (30356): [b400007c777680c0/7694] libvlc keystore: looking for keystore module matching "memory": 3 candidates
+11-10 07:40:03.324 D/VLC     (30356): [b400007c777680c0/7694] libvlc keystore: using keystore module "memory"
+11-10 07:40:03.324 D/VLC     (30356): [b400007c8779ae80/7694] libvlc libvlc: CPU has capabilities FPU 
+11-10 07:40:03.325 I/VLC/medialibrary(30356): [T#542744761592] ../src/MediaLibrary.cpp:2731 setExternalLibvlcInstance Setting external libvlc instance: 0xb400007c478398c0
+11-10 07:40:03.325 D/VLC/medialibrary(30356): [T#542744761592] ../src/filesystem/libvlc/DeviceLister.cpp:85 stop Stopping Service Discovery dsm
+11-10 07:40:03.325 I/VLC/medialibrary(30356): [T#531355405504] ../src/discoverer/DiscovererWorker.cpp:497 run Exiting DiscovererWorker thread
+11-10 07:40:03.325 D/VLC/medialibrary(30356): [T#542744761592] ../src/filesystem/libvlc/DeviceLister.cpp:85 stop Stopping Service Discovery microdns
+11-10 07:40:04.159 I/VLC/medialibrary(30356): [T#531355405504] ../src/discoverer/DiscovererWorker.cpp:409 run Entering DiscovererWorker thread
+11-10 07:40:04.160 D/VLC/medialibrary(30356): [T#531355405504] ../src/MediaLibrary.cpp:2402 onDiscovererIdleChanged Discover thread was resumed
+11-10 07:40:04.160 D/VLC/medialibrary(30356): [T#531355405504] ../src/MediaLibrary.cpp:2415 onDiscovererIdleChanged Setting background idle state to false
+11-10 07:40:04.160 D/VLC/medialibrary(30356): [T#531355405504] ../src/filesystem/libvlc/FileSystemFactory.cpp:112 start Starting FS Factory with scheme file://
+11-10 07:40:04.163 I/Choreographer(30356): Skipped 50 frames!  The application may be doing too much work on its main thread.
+11-10 07:40:04.182 D/VLC/medialibrary(30356): [T#531355405504] ../src/filesystem/libvlc/FileSystemFactory.cpp:112 start Starting FS Factory with scheme smb://
+11-10 07:40:04.182 D/VLC/medialibrary(30356): [T#531355405504] ../src/filesystem/libvlc/DeviceLister.cpp:69 start Starting Service Discovery dsm
+11-10 07:40:04.183 D/VLC/medialibrary(30356): [T#531355405504] ../src/filesystem/libvlc/DeviceLister.cpp:69 start Starting Service Discovery microdns
+11-10 07:40:04.184 I/OpenGLRenderer(30356): Davey! duration=865ms; Flags=0, IntendedVsync=25497228235427, Vsync=25498061568727, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=25498074377328, AnimationStart=25498074379933, PerformTraversalsStart=25498074394151, DrawStart=25498081909725, SyncQueued=25498082761340, SyncStart=25498084027850, IssueDrawCommandsStart=25498085269569, SwapBuffers=25498092229049, FrameCompleted=25498094561705, DequeueBufferDuration=645469, QueueBufferDuration=972031, GpuCompleted=25456969172036, 
+11-10 07:40:04.185 I/VLC/medialibrary(30356): [T#531355405504] ../src/filesystem/FsHolder.cpp:249 refreshDevice Device main-storage presence is unchanged
+11-10 07:40:04.199 D/VLC/medialibrary(30356): [T#531355405504] ../src/MediaLibrary.cpp:2402 onDiscovererIdleChanged Discoverer thread went idle
+11-10 07:40:04.199 D/VLC/medialibrary(30356): [T#531355405504] ../src/MediaLibrary.cpp:2415 onDiscovererIdleChanged Setting background idle state to true
+11-10 07:40:07.387 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:10.918 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:11.104 V/AutofillManager(30356): notifyValueChanged(1073741845): ignoring on state UNKNOWN
+11-10 07:40:14.413 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:40:14.413 V/AutofillManager(30356): notifyValueChanged(1073741849): ignoring on state UNKNOWN
+11-10 07:40:14.415 V/AutofillManager(30356): notifyValueChanged(1073741849): ignoring on state UNKNOWN
+11-10 07:40:14.429 W/ListPreference(30356): Setting a summary with a String formatting marker is no longer supported. You should use a SummaryProvider instead.
+11-10 07:40:14.433 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:40:14.433 V/AutofillManager(30356): notifyValueChanged(1073741850): ignoring on state UNKNOWN
+11-10 07:40:14.434 V/AutofillManager(30356): notifyValueChanged(1073741850): ignoring on state UNKNOWN
+11-10 07:40:15.975 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:16.845 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:17.045 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:40:17.045 V/AutofillManager(30356): notifyValueChanged(1073741851): ignoring on state UNKNOWN
+11-10 07:40:17.049 V/AutofillManager(30356): notifyValueChanged(1073741851): ignoring on state UNKNOWN
+11-10 07:40:17.065 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:40:17.065 V/AutofillManager(30356): notifyValueChanged(1073741852): ignoring on state UNKNOWN
+11-10 07:40:17.066 V/AutofillManager(30356): notifyValueChanged(1073741852): ignoring on state UNKNOWN
+11-10 07:40:19.327 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:19.673 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:40:19.673 V/AutofillManager(30356): notifyValueChanged(1073741853): ignoring on state UNKNOWN
+11-10 07:40:20.232 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:20.624 V/TextView(30356): notifyAutoFillManagerAfterTextChanged
+11-10 07:40:20.624 V/AutofillManager(30356): notifyValueChanged(1073741854): ignoring on state UNKNOWN
+11-10 07:40:20.627 V/AutofillManager(30356): notifyValueChanged(1073741854): ignoring on state UNKNOWN
+11-10 07:40:27.723 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:28.874 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:29.975 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:30.183 E/olan.vlc:logge( 6306): Not starting debugger since process cannot load the jdwp agent.
+11-10 07:40:30.229 W/olan.vlc:logge( 6306): Insufficient pre-allocated space to mmap vdex.
+11-10 07:40:30.248 D/NetworkSecurityConfig( 6306): No Network Security Config specified, using platform default
+11-10 07:40:30.248 D/NetworkSecurityConfig( 6306): No Network Security Config specified, using platform default
+11-10 07:40:30.258 I/MultiDex( 6306): VM with version 2.1.0 has multidex support
+11-10 07:40:30.258 I/MultiDex( 6306): Installing application
+11-10 07:40:30.258 I/MultiDex( 6306): VM has multidex support, MultiDex support library is disabled.
+11-10 07:40:30.286 I/VLC/LibVLC/Util( 6306): ELF ABI = arm, 64bits
+11-10 07:40:30.286 I/VLC/LibVLC/Util( 6306): ELF arch = null
+11-10 07:40:30.286 I/VLC/LibVLC/Util( 6306): ELF fpu = false
+11-10 07:40:30.290 D/VLC/LibVLC/Util( 6306): machineSpecs: hasArmV6: true, hasArmV7: true, hasX86: false, is64bits: true
+11-10 07:40:30.484 D/VLC     ( 6306): [b400007c876f9580/70f9130c] libvlc libvlc: VLC media player - 3.0.16 Vetinari
+11-10 07:40:30.484 D/VLC     ( 6306): [b400007c876f9580/70f8c698] libvlc libvlc: Copyright © 1996-2021 the VideoLAN team
+11-10 07:40:30.484 D/VLC     ( 6306): [b400007c876f9580/70f83770] libvlc libvlc: revision 3.0.16-185-gb0b65fc840
+11-10 07:40:30.484 D/VLC     ( 6306): [b400007c876f9580/70f7e3e0] libvlc libvlc: configured with ../configure  '--host=aarch64-linux-android' '--build=x86_64-unknown-linux' '--with-contrib=/builds/videolan/vlc-android/vlc/contrib/aarch64-linux-android' '--prefix=/builds/videolan/vlc-android/vlc/build-android-aarch64-linux-android/install/' '--with-pic' '--disable-nls' '--enable-live555' '--enable-realrtsp' '--enable-avformat' '--enable-swscale' '--enable-avcodec' '--enable-opus' '--enable-opensles' '--enable-matroska' '--enable-taglib' '--enable-dvbpsi' '--disable-vlc' '--disable-shared' '--disable-update-check' '--disable-vlm' '--disable-dbus' '--enable-lua' '--disable-vcd' '--disable-v4l2' '--enable-dvdread' '--enable-dvdnav' '--enable-bluray' '--disable-linsys' '--disable-decklink' '--disable-libva' '--disable-dv1394' '--enable-mod' '--disable-sid' '--disable-gme' '--disable-tremor' '--disable-mad' '--enable-mpg123' '--disable-dca' '--disable-sdl-image' '--enable-zvbi' '--disable-fluidsynth' '--enable-fluidlite' '--disable-jack' '--disable-pu
+11-10 07:40:30.484 D/VLC     ( 6306): [b400007c876f9580/b400007c377236b0] libvlc libvlc: plug-ins loaded: 367 modules
+11-10 07:40:30.484 D/VLC     ( 6306): [b400007c776f2fa0/70ee32fc] libvlc logger: looking for logger module matching "any": 4 candidates
+11-10 07:40:30.484 D/VLC     ( 6306): [b400007c776f2fa0/70edcbb0] libvlc logger: using logger module "android_logger"
+11-10 07:40:30.484 D/VLC     ( 6306): [b400007c876f9580/18c4] libvlc libvlc: translation test: code is "C"
+11-10 07:40:30.484 D/VLC     ( 6306): [b400007c776f3300/18c4] libvlc keystore: looking for keystore module matching "memory": 3 candidates
+11-10 07:40:30.484 D/VLC     ( 6306): [b400007c776f3300/18c4] libvlc keystore: using keystore module "memory"
+11-10 07:40:30.484 D/VLC     ( 6306): [b400007c876f9580/18c4] libvlc libvlc: CPU has capabilities FPU 
+11-10 07:40:32.119 W/VLC/VLCApplication( 6306): onTrimMemory, level: 10
+11-10 07:40:32.146 W/VLC/VLCApplication(30356): onTrimMemory, level: 10
+11-10 07:40:33.269 W/VLC/VLCApplication( 6306): onTrimMemory, level: 10
+11-10 07:40:33.287 W/VLC/VLCApplication(30356): onTrimMemory, level: 10
+11-10 07:40:33.354 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:35.685 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:39.928 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:42.381 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:44.781 W/VLC/VLCApplication( 6306): onTrimMemory, level: 15
+11-10 07:40:44.781 W/VLC/VLCApplication(30356): onTrimMemory, level: 15
+11-10 07:40:46.173 I/Choreographer(30356): Skipped 82 frames!  The application may be doing too much work on its main thread.
+11-10 07:40:46.180 W/VLC/VLCApplication(30356): onTrimMemory, level: 80
+11-10 07:40:47.411 W/VLC/VLCApplication( 6306): onTrimMemory, level: 15
+11-10 07:40:48.445 W/VLC/VLCApplication( 6306): onTrimMemory, level: 15
+11-10 07:40:48.532 I/AdrenoGLES-0(30356): QUALCOMM build                   : d970ca5f2e, Ifead41f47e
+11-10 07:40:48.532 I/AdrenoGLES-0(30356): Build Date                       : 07/14/21
+11-10 07:40:48.532 I/AdrenoGLES-0(30356): OpenGL ES Shader Compiler Version: EV031.32.02.14
+11-10 07:40:48.532 I/AdrenoGLES-0(30356): Local Branch                     : 
+11-10 07:40:48.532 I/AdrenoGLES-0(30356): Remote Branch                    : 
+11-10 07:40:48.532 I/AdrenoGLES-0(30356): Remote Branch                    : 
+11-10 07:40:48.532 I/AdrenoGLES-0(30356): Reconstruct Branch               : 
+11-10 07:40:48.532 I/AdrenoGLES-0(30356): Build Config                     : S P 10.0.7 AArch64
+11-10 07:40:48.593 I/AdrenoGLES-0(30356): Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+11-10 07:40:50.513 W/VLC/VLCApplication( 6306): onTrimMemory, level: 15
+11-10 07:40:51.156 I/AdrenoGLES-0(30356): PFP: 0x016ee197, ME: 0x00000000
+11-10 07:40:51.455 I/OpenGLRenderer(30356): Davey! duration=3222ms; Flags=1, IntendedVsync=25542141505882, Vsync=25542341505874, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=25542346497885, AnimationStart=25542346500228, PerformTraversalsStart=25542346501739, DrawStart=25545240660569, SyncQueued=25545241878173, SyncStart=25545242320413, IssueDrawCommandsStart=25545242398902, SwapBuffers=25545363813810, FrameCompleted=25545364537821, DequeueBufferDuration=5999532, QueueBufferDuration=271823, GpuCompleted=25527365010038, 
+11-10 07:40:51.455 W/VLC/VLCApplication(30356): onTrimMemory, level: 15
+11-10 07:40:51.455 W/VLC/VLCApplication(30356): onTrimMemory, level: 15
+11-10 07:40:51.643 I/Choreographer(30356): Skipped 191 frames!  The application may be doing too much work on its main thread.
+11-10 07:40:51.652 I/OpenGLRenderer(30356): Davey! duration=3204ms; Flags=0, IntendedVsync=25542358540668, Vsync=25545541873874, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=25545554688725, AnimationStart=25545554689663, PerformTraversalsStart=25545554704246, DrawStart=25545558276590, SyncQueued=25545559045548, SyncStart=25545559247007, IssueDrawCommandsStart=25545559379351, SwapBuffers=25545560824403, FrameCompleted=25545563282788, DequeueBufferDuration=73230, QueueBufferDuration=1918021, GpuCompleted=25527383222071, 
+11-10 07:40:52.393 W/ViewRootImpl[DebugLogActivity](30356): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=25545966, downTime=25545459, deviceId=-1, source=0x101, displayId=0 }
+11-10 07:40:52.393 I/chatty  (30356): uid=1010545(org.videolan.vlc) main identical 4 lines
+11-10 07:40:52.393 W/ViewRootImpl[DebugLogActivity](30356): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=25545966, downTime=25545459, deviceId=-1, source=0x101, displayId=0 }
+11-10 07:40:54.063 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:54.387 W/VLC/VLCApplication( 6306): onTrimMemory, level: 10
+11-10 07:40:54.392 W/VLC/VLCApplication(30356): onTrimMemory, level: 10
+11-10 07:40:54.541 I/rg.videolan.vl(30356): Background young concurrent copying GC freed 135032(6299KB) AllocSpace objects, 11(412KB) LOS objects, 29% free, 16MB/23MB, paused 67us total 114.901ms
+11-10 07:40:54.591 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.601 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.601 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.601 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.601 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.601 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.601 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.601 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.601 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.601 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.602 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.602 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.602 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.602 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.602 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.602 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.602 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.602 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.602 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.602 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.602 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.602 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.602 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.602 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.602 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.602 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.602 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.602 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.602 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.602 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.602 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.602 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.602 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.602 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.602 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.602 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.602 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.602 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.602 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.602 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.602 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.602 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.602 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.602 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.606 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.606 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.606 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.606 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.606 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.606 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:54.606 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:40:54.606 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:40:54.606 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:40:54.606 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:40:55.994 V/AutofillManager(30356): requestHideFillUi(null): anchor = null
+11-10 07:40:58.475 W/VLC/VLCApplication(30356): onTrimMemory, level: 80
+11-10 07:40:59.854 W/VLC/VLCApplication( 6306): onTrimMemory, level: 15
+11-10 07:41:03.724 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:41:03.748 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:41:03.748 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:41:03.748 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:41:03.748 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:41:03.748 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:41:03.748 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:41:03.748 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:41:03.752 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:41:03.752 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:41:03.752 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:41:03.752 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:41:03.752 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:41:03.752 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:41:03.752 E/System  (30356): Uncaught exception thrown by finalizer
+11-10 07:41:03.753 E/System  (30356): java.lang.AssertionError: VLCObject (org.videolan.libvlc.Media) finalized but not natively released (1 refs)
+11-10 07:41:03.753 E/System  (30356): 	at org.videolan.libvlc.VLCObject.finalize(VLCObject.java:103)
+11-10 07:41:03.753 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+11-10 07:41:03.753 E/System  (30356): 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+11-10 07:41:03.753 E/System  (30356): 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+11-10 07:41:03.753 E/System  (30356): 	at java.lang.Thread.run(Thread.java:923)
+11-10 07:41:06.529 W/VLC/VLCApplication( 6306): onTrimMemory, level: 15
+11-10 07:41:07.124 W/VLC/VLCApplication( 6306): onTrimMemory, level: 10
+11-10 07:41:08.258 W/VLC/VLCApplication( 6306): onTrimMemory, level: 15
